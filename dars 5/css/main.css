@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.continier{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header{
+background-color:cornflowerblue;
+
+}
+.novbar{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.naw-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+#hero{
+    background-image: url(../images/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#hero{
+    padding-top: 20px;
+}
+.korinishi h1 {
+    padding-top: 750px;
+    text-align: center;
+    margin-bottom: 300px;
+    font-size: 75px;
+
+}
+.korinishi p{
+text-align: center;
+margin-bottom: 250px;
+font-size: 50px;
+}
+.card{
+    border-radius: 12px;
+    background-color: rgb(204, 185, 108);
+    width: 320px;
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+    border-radius: 12px;
+    width: 300px;
+}
+.cards{
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.card h1{
+    text-align: center;
+}
+.card button{
+    width: 100%;
+   border: none;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+.card button:hover{
+    background-color: cadetblue;
+    color: blue;
+}
+
+
+

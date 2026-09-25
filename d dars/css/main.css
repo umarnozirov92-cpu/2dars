@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.continier{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cards div{
+border-radius: 5px;
+width: 100px;
+background-color: rgb(0, 255, 17);
+padding: 7px;
+}
+#hero{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: aquamarine;
+}
+.cards img{
+    width: 200px;
+}
+.owl-next , owl-prew span {
+    background-color: blue;
+    padding: 5px ;
+}
+
